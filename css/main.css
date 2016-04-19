@@ -1,0 +1,317 @@
+  body {
+    font-family: monospace;
+    /*font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;*/
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*font: 20px Montserrat, sans-serif;*/
+/*    line-height: 1.8;*/
+    color: #f5f6f7;
+  }
+
+
+/*////////NAVBAR///////*/
+  .navbar {
+      background-image: url("../images/pineapple.jpg");
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0px;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+
+  nav.navbar.navbar-default {
+    color: #A00B0B;
+    /*margin-bottom: 0%;*/
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  .navbar-nav  li a:hover {
+    font-size: 2em;
+    color: #1abc9c !important;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+  color: #C52C2C;
+  font-size: 1.6em;
+  font-family: monospace;
+  /*font-family: 'Asap', sans-serif;*/
+  font-weight: 700;
+  }
+
+  #my-name {
+    color: #C52C2C;
+    font-family: 'Satisfy', cursive;
+    /*font-family: 'Asap', sans-serif;*/
+    font-size: 2.6em;
+    font-weight: 700;
+  }
+
+  #my-name:hover {
+    color: #1abc9c;
+    font-size: 2em;
+  }
+ /*////////END OF NAVBAR///////*/
+
+  .subtitles {
+    color: #A00B0B;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: monospace;
+    padding-top: 4%;
+    margin-bottom: 0px;
+/*   -webkit-text-fill-color: #D3D679;
+   -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: black;*/
+  }
+
+  h3 {
+    font-family: monospace;
+  }
+
+  .pink {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 1em;
+    color: #BB3A56;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: 'Ropa Sans', sans-serif;
+    /*font-family: 'Cuprum', sans-serif;*/
+    /*font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;*/
+  }
+
+/*////////ABOUT ME///////*/
+
+  #job-title {
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+
+  #profile-pic {
+    border-radius: 25px;
+    padding-right: 1%;
+    float: left;
+    clear: right;
+    overflow: hidden;
+    opacity: 1;
+  }
+
+  .about-me-p {
+    background-image: url("http://www.kitaro10.com/wp-content/uploads/2014/01/17.jpg");
+    background-size: 100% 100%;
+    opacity: 1;
+    padding: 3% 2%;
+    width: 90%;
+    border-radius: 25px;
+    color: pink;
+    vertical-align: middle;
+    font-size: 1.7em;
+    /*font-family: 'Asap', sans-serif;*/
+    margin-top: 3%;
+    margin: 0 auto;
+  }
+/*
+  .fa-heart:before {
+   color: red;
+  }*/
+
+  .redheart {
+    font-size: .7em;
+    padding-right: 1%;
+    color: red;
+  }
+
+  #left-right-div {
+    vertical-align: middle;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    /*border: 1px solid white;*/
+    border-radius: 25px;
+  }
+
+  #left {
+    float: left;
+    clear: right;
+    overflow: hidden;
+  }
+
+  /*////////END OF ABOUT ME///////*/
+
+  .margin {
+    margin-bottom: 45px;
+  }
+
+  .bg-1 { 
+    /*  background-image: url("../images/purplefabric.jpg");
+      background-size: cover;*/
+      /*background-image: url("http://s7.favim.com/610/150527/anchor-purple-wallpaper-Favim.com-2768197.jpg");*/
+
+      background-color: pink; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #1abc9c;
+      /*background-color: #ffffff; /* White */*/
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: gray;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+
+
+/*////////PORFOLIO///////*/
+/*
+  .project-img {
+    width: 200;
+    height: 200px;
+  }*/
+
+  .purp-github {
+    width: 10%;
+    margin-bottom: 1%;
+  }
+
+  .purp-github:hover {
+    font-size: 1.4em;
+  }
+
+  #about-me {
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Abel', sans-serif;
+  }
+
+  .project-link {
+    font-size: 1.6em;
+    color: #A00B0B;
+    text-decoration: underline;
+  }
+
+  .project-link:hover {
+    color: #A00B0B;
+    font-size: 1.8em;
+  }
+
+  .project-title {
+    font-size: 2em;
+    color: #333;
+    font-weight: bold;
+    /*color: #5E2B6B;*/
+    font-family: monospace;
+  }
+  
+  .purple {
+    color: #5E2B6B;
+  }
+
+  /*////////SKILLS///////*/
+  
+  .skills {
+    margin: 3%;
+    border-radius: 5px;
+    width: 7%;
+  }
+
+  #angularjs {
+    width: 10%;
+  }
+
+  #html5 {
+    width: 10%;
+  }
+
+  #jquery {
+    width: 10%;
+  }
+
+  #github {
+    width: 10%;
+    border-radius: 5px;
+    margin: 3%;
+  }
+
+  #rails {
+    width: 7%;
+    border-radius: 7px;
+  }
+
+  /*////////FOOTER///////*/
+
+  #gmail {
+    width: 3.5%;
+    margin: 1%;
+  }
+
+  #linkedin {
+    width: 4%;
+    margin: 1%;
+  }
+
+  #githubcontact {
+    width: 4%;
+    margin: 1%;
+  }
+
+  .social-media {
+     width: 4%;
+     margin: 1%;
+  }
+
+  #resume {
+    font-size: 1.4em;
+  }
+
+@media (max-width: 606px) {
+
+  #job-title {
+    font-size: 1.4em;
+  }
+
+  .about-me-p {
+    width: 100%;
+    font-size: 1.4em;
+    margin-top: 3%;
+    margin: 0 auto;
+  }
+
+  #gmail {
+    width: 7%;
+  }
+
+  #linkedin {
+    width: 7%;
+  }
+
+  #githubcontact {
+    width: 7%;
+  }
+
+  .social-media {
+     width: 7%;
+  }
+
+} 
+
+
+
+
+
+
+
+
+
+
