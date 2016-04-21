@@ -76,13 +76,6 @@
     color: #8B1313;
   }
 
-  p {
-    font-size: 20px;
-    font-family: 'Ropa Sans', sans-serif;
-    /*font-family: 'Cuprum', sans-serif;*/
-    /*font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;*/
-  }
-
 /*////////ABOUT ME///////*/
 
   #quote {
@@ -232,6 +225,20 @@
   
   .purple {
     color: #5E2B6B;
+  }
+
+/*  .proj-div {
+    background-color: #fff;
+    opacity: .8;
+    border-radius: 5px;
+  }*/
+
+  p {
+    color: #F5F6F9;
+    font-size: 20px;
+    font-family: 'Ropa Sans', sans-serif;
+    /*font-family: 'Cuprum', sans-serif;*/
+    /*font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;*/
   }
 
   /*////////SKILLS///////*/
