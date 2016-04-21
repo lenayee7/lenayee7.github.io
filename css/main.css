@@ -162,8 +162,8 @@
 
   .bg-1 { 
       background-size: cover;
-      background-image: url("http://s7.favim.com/610/150527/anchor-purple-wallpaper-Favim.com-2768197.jpg");
-      /*background-image: url("http://wallx.xyz/w/San-Francisco-Black-And-White-Wallpaper-For-Windows-OPQ.jpg");*/
+      /*background-image: url("http://s7.favim.com/610/150527/anchor-purple-wallpaper-Favim.com-2768197.jpg");*/
+      background-image: url("http://wallx.xyz/w/San-Francisco-Black-And-White-Wallpaper-For-Windows-OPQ.jpg");
       background-color: pink; /* Green */
       color: #ffffff;
   }
