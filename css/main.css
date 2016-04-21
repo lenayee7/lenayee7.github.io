@@ -90,6 +90,11 @@
     color: pink;
   }*/
 
+  #passion-coding {
+    color: #15E8C5;
+    font-weight: bold;
+  }
+
   #job-title {
     color: pink;
     font-weight: bold;
@@ -120,6 +125,10 @@
     font-size: 1.7em;
     /*font-family: 'Asap', sans-serif;*/
     margin: 3% auto;
+  }
+
+  .code-volleyball {
+    color: pink;
   }
 /*
   .fa-heart:before {
