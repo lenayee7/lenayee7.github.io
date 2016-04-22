@@ -10,7 +10,8 @@
 
 /*////////NAVBAR///////*/
   .navbar {
-      background-image: url("../images/pineapple.jpg");
+      background-color: #2f2f2f;
+      /*background-image: url("../images/pineapple.jpg");*/
       padding-top: 15px;
       padding-bottom: 15px;
       border: 0;
@@ -33,7 +34,7 @@
   }
 
   .navbar-default .navbar-nav>li>a {
-  color: #C52C2C;
+  color: #A00B0B;
   font-size: 1.6em;
   font-family: monospace;
   /*font-family: 'Asap', sans-serif;*/
@@ -41,7 +42,7 @@
   }
 
   #my-name {
-    color: #C52C2C;
+    color: #A00B0B;
     font-family: 'Satisfy', cursive;
     /*font-family: 'Asap', sans-serif;*/
     font-size: 2.6em;
@@ -175,10 +176,10 @@
       color: #ffffff;
   }
   .bg-3 { 
-      background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/Standing-Starfish-HD-Wallpaper-having-Bright-Sun-in-Background.jpg");
-      background-size: cover;
+/*      background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/Standing-Starfish-HD-Wallpaper-having-Bright-Sun-in-Background.jpg");
+      background-size: cover;*/
       /*background-color: #1abc9c;*/
-      /*background-color: #ffffff; /* White */*/
+      background-color: #1abc9c; /* White */
       color: #555555;
   }
   .bg-4 { 
@@ -192,11 +193,11 @@
 
 
 /*////////PORFOLIO///////*/
-/*
+
   .project-img {
-    width: 200;
-    height: 200px;
-  }*/
+    width: 400px;
+    height: 300px;
+  }
 
   .purp-github {
     width: 10%;
