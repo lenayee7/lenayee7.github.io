@@ -10,11 +10,12 @@
 
 /*////////NAVBAR///////*/
   .navbar {
-      background-color: #2f2f2f;
+      color: #c7b27e;
+      border: 1px solid #fce29f;
+      background-color: #16061D;
       /*background-image: url("../images/pineapple.jpg");*/
       padding-top: 15px;
       padding-bottom: 15px;
-      border: 0;
       border-radius: 0;
       margin-bottom: 0px;
       font-size: 12px;
@@ -25,16 +26,16 @@
     color: #A00B0B;
     /*margin-bottom: 0%;*/
     border-radius: 0px;
-    border: 0px;
   }
 
   .navbar-nav  li a:hover {
     font-size: 2em;
-    color: #1abc9c !important;
+    color: pink !important;
   }
 
   .navbar-default .navbar-nav>li>a {
-  color: #A00B0B;
+
+  color: #775E9C;
   font-size: 1.6em;
   font-family: monospace;
   /*font-family: 'Asap', sans-serif;*/
@@ -42,7 +43,7 @@
   }
 
   #my-name {
-    color: #A00B0B;
+    color: #775E9C;
     font-family: 'Satisfy', cursive;
     /*font-family: 'Asap', sans-serif;*/
     font-size: 2.6em;
@@ -50,21 +51,22 @@
   }
 
   #my-name:hover {
-    color: #1abc9c;
+    color: pink;
     font-size: 2em;
   }
  /*////////END OF NAVBAR///////*/
 
   .subtitles {
-    color: #A00B0B;
+    color: #C52929;
     font-size: 2em;
     font-weight: bold;
     font-family: monospace;
     padding-top: 4%;
     margin-bottom: 0px;
-/*   -webkit-text-fill-color: #D3D679;
+    text-decoration: underline;
+  /* -webkit-text-fill-color: #D3D679;
    -webkit-text-stroke-width: .5px;
-   -webkit-text-stroke-color: black;*/
+   -webkit-text-stroke-color: #D3D679;*/
   }
 
   h3 {
@@ -80,11 +82,11 @@
 /*////////ABOUT ME///////*/
 
   #quote {
-    color: #8B1313;
+    color: #1F132F;
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.7em;
     font-style: italic;
-    /*font-family: 'Satisfy', cursive;*/
+    font-family:'Satisfy', cursive;
   }
 
  /* #passion {
@@ -92,18 +94,22 @@
   }*/
 
   #passion-coding {
-    color: #15E8C5;
+    color: #C52929;
     font-weight: bold;
+    /*font-size: 1.7em;*/
   }
 
   #job-title {
-    color: pink;
+    color: #775E9C;
     font-weight: bold;
     /*margin-bottom: 1%;*/
   }
 
   #profile-pic {
-    border-radius: 25px;
+    margin: 0 2%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
     padding-right: 1%;
     float: left;
     clear: right;
@@ -111,19 +117,24 @@
     opacity: 1;
   }
 
+  .bullet-point {
+    list-style: circle;
+  }
+
   .about-me-p {
-    background-color: #2f2f2f;
-    /*background-image: url("http://wallx.xyz/w/San-Francisco-Black-And-White-Wallpaper-For-Windows-OPQ.jpg");*/
-    /*background-image: url("http://www.kitaro10.com/wp-content/uploads/2014/01/17.jpg");*/
-    background-size: 100% 100%;
+    /*background: #fff9c6;*/
+    color: #c7b27e;
+    border: 1px solid #fce29f;
+    background-color: #16061D;
     opacity: 1;
     padding: 3% 2%;
     width: 90%;
     border-radius: 25px;
     opacity: .8;
-    color: pink;
+    color: #775E9C;
     vertical-align: middle;
     font-size: 1.7em;
+    font-weight: bold;
     /*font-family: 'Asap', sans-serif;*/
     margin: 3% auto;
   }
@@ -164,40 +175,37 @@
   }
 
   .bg-1 { 
-      background-size: cover;
-      /*background-image: url("http://s7.favim.com/610/150527/anchor-purple-wallpaper-Favim.com-2768197.jpg");*/
-      background-image: url("http://wallx.xyz/w/San-Francisco-Black-And-White-Wallpaper-For-Windows-OPQ.jpg");
-      background-color: pink; /* Green */
-      color: #ffffff;
+    background-color: #403451; 
   }
-  .bg-2 { 
 
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
+  .bg-2 { 
+    background-size: cover;
+    background-image: url("../images/blackwhitesf.jpg");
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
   }
+
   .bg-3 { 
-/*      background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/Standing-Starfish-HD-Wallpaper-having-Bright-Sun-in-Background.jpg");
-      background-size: cover;*/
-      /*background-color: #1abc9c;*/
-      background-color: #1abc9c; /* White */
-      color: #555555;
+    background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/Standing-Starfish-HD-Wallpaper-having-Bright-Sun-in-Background.jpg");
+    background-size: cover;
+    background-color: #fff;
+        /*    background-color: #fff;*/ /* White */
+    color: #555555;
   }
+
   .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: gray;
+    background-color: #16061D;
+    /*background-color: #2f2f2f; /* Black Gray */*/
+    color: gray;
   }
+
   .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 
 
 /*////////PORFOLIO///////*/
-
-  .project-img {
-    width: 400px;
-    height: 300px;
-  }
 
   .purp-github {
     width: 10%;
@@ -213,6 +221,14 @@
     margin: 0 auto;
     font-family: 'Abel', sans-serif;
   }
+  
+  #memorizingmnms {
+    font-size: 1.3em;
+  }
+
+  #memorizingtitle {
+    font-size: 1.6em;
+  }
 
   .project-link {
     font-size: 1.6em;
@@ -227,14 +243,37 @@
 
   .project-title {
     font-size: 2em;
-    color: #333;
+    color: #1F132F;
     font-weight: bold;
     /*color: #5E2B6B;*/
     font-family: monospace;
   }
+
+  .project-img {
+    width: 79%;
+    margin-bottom: 6%;
+  }
+
+  .project-desc {
+    background: #fff9c6;
+    color: #c7b27e;
+    border: 1px solid #fce29f;
+    /*width: 90%;*/
+    width: 320px;
+    max-height: 280px;
+    overflow: scroll;
+    margin: 0 auto;
+    padding: 0 3% 3% 3%;
+    border-radius: 20px;
+    background-color: #1F132F;
+    /*opacity: .8;*/
+    margin-bottom: 6%;
+    /*border: 2px solid white;*/
+  }
   
-  .purple {
-    color: #5E2B6B;
+  .navbar-purple {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #1F132F;
   }
 
 /*  .proj-div {
@@ -308,14 +347,38 @@
     width: 5.5%;
   }
 
-  #resume {
-    font-size: 1.4em;
+  .glyphicon {
+    margin-right: 1%;
   }
+
+
+@media (max-width: 1035px) {
+  .project-desc {
+    font-size: 1.2em;
+    width: 220px;
+    max-height: 180px;
+  }
+}
+
+@media (max-width: 765px) {
+  .project-desc {
+    font-size: 1.2em;
+    width: 380px;
+    max-height: 280px;
+  }
+}
 
 @media (max-width: 606px) {
 
+  #profile-pic {
+    float: none;
+    margin: 4% auto;
+    width: 120px;
+    height: 120px;
+  }
+
   #job-title {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 
   .about-me-p {
