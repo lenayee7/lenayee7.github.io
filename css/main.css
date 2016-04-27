@@ -156,7 +156,7 @@
   #left-right-div {
     vertical-align: middle;
     overflow: hidden;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     /*border: 1px solid white;*/
     border-radius: 25px;
@@ -353,19 +353,23 @@
 
 
 @media (max-width: 1035px) {
+
   .project-desc {
     font-size: 1.2em;
     width: 220px;
     max-height: 180px;
   }
+
 }
 
 @media (max-width: 765px) {
+
   .project-desc {
     font-size: 1.2em;
-    width: 380px;
-    max-height: 280px;
+    width: 290px;
+    max-height: 300px;
   }
+
 }
 
 @media (max-width: 606px) {
