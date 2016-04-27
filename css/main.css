@@ -263,6 +263,7 @@
     color: #c7b27e;
     border: 1px solid #fce29f;
     width: 80%;
+    max-height: 350px;
     /*width: 320px;*/
     /*max-height: 280px;*/
     overflow: scroll;
@@ -373,6 +374,10 @@
     font-size: 1.3em;
   }
 
+  #memorizing-img {
+    margin-top: 4%;
+  }
+
   
 }
 
@@ -439,7 +444,7 @@
   .purp-github {
     width: 6%;
   }
-  
+
   #profile-pic {
     float: none;
     margin: 4% auto;
