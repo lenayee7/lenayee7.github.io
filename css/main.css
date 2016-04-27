@@ -35,7 +35,7 @@
 
   .navbar-nav  li a:hover {
     font-size: 2em;
-    color: pink !important;
+    color: #B71212 !important;
   }
 
   .navbar-default .navbar-nav>li>a {
@@ -55,13 +55,13 @@
   }
 
   #my-name:hover {
-    color: pink;
+    color: #B71212;
     font-size: 2em;
   }
  /*////////END OF NAVBAR///////*/
 
   .subtitles {
-    color: #C52929;
+    color: #B71212;
     font-size: 2em;
     font-weight: bold;
     font-family: monospace;
@@ -98,7 +98,7 @@
   }*/
 
   #passion-coding {
-    color: #C52929;
+    color: #B71212;
     font-weight: bold;
     /*font-size: 1.7em;*/
   }
@@ -212,7 +212,7 @@
 /*////////PORFOLIO///////*/
 
   .purp-github {
-    width: 10%;
+    width: 7%;
     margin-bottom: 1%;
   }
 
@@ -227,11 +227,11 @@
   }
   
   #memorizingmnms {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 
   #memorizingtitle {
-    font-size: 1.6em;
+    /*font-size: 1.5em;*/
   }
 
   .project-link {
@@ -361,7 +361,19 @@
    /* width: 244px;
     max-height: 180px;*/
   }
+}
 
+@media (max-width: 898px) {
+
+  #memorizingtitle {
+    font-size: 1.5em;
+  }
+
+  #memorizingmnms {
+    font-size: 1.3em;
+  }
+
+  
 }
 
 @media (max-width: 765px) {
@@ -370,6 +382,10 @@
     font-size: 1.2em;
    /* width: 500px;
     max-height: 300px;*/
+  }
+
+  .purp-github {
+    width: 4% ;
   }
 
 }
@@ -420,6 +436,10 @@
 
 @media (max-width: 500px) {
 
+  .purp-github {
+    width: 6%;
+  }
+  
   #profile-pic {
     float: none;
     margin: 4% auto;
