@@ -8,12 +8,16 @@
   }
 
   .pink-red {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family:'Satisfy', cursive;
-    /*color: #B71212;*/
-    color: #FCE29F;
+    color: #B71212;
+    /*color: #FCE29F;*/
   }
 
+  .technologies {
+    font-size: .7em;
+    /*color: red;*/
+  }
 
 /*////////NAVBAR///////*/
 
@@ -111,7 +115,8 @@
   }
 
   #job-title {
-    color: #775E9C;
+    color: #F0F0F1;
+    /*color: #775E9C;*/
     font-weight: bold;
     /*margin-bottom: 1%;*/
   }
@@ -133,7 +138,8 @@
     color: #FCE29F;
     /*color: #c7b27e;*/
     border: 1px solid #fce29f;
-    background-color: #16061D;
+    background-color: #F0F0F1;
+    /*background-color: #16061D;*/
     opacity: 1;
     padding: 3% 2% 2% 2%;
     width: 90%;
@@ -187,16 +193,18 @@
   }
 
   .bg-2 { 
-    background-size: cover;
-    background-image: url("../images/blackwhitesf.jpg");
-    background-color: #474e5d; /* Dark Blue */
+/*    background-size: cover;
+    background-image: url("../images/blackwhitesf.jpg");*/
+    background-color: #F0F0F1; /* Dark Blue */
+    border-bottom: 1px solid #79757F;
     color: #ffffff;
   }
 
   .bg-3 { 
-    background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/Standing-Starfish-HD-Wallpaper-having-Bright-Sun-in-Background.jpg");
-    background-size: cover;
-    background-color: #fff;
+    border-bottom: 2px solid #79757F;
+   /* background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/Standing-Starfish-HD-Wallpaper-having-Bright-Sun-in-Background.jpg");
+    background-size: cover;*/
+    background-color: #F0F0F1;
         /*    background-color: #fff;*/ /* White */
     color: #555555;
   }
@@ -263,18 +271,21 @@
   }
 
   .project-desc {
+    font-size: 1.5em;
     background: #fff9c6;
-    color: #c7b27e;
+    color: #FFFFFF;
+    /*color: #c7b27e;*/
     border: 1px solid #fce29f;
     width: 80%;
-    max-height: 300px;
+    /*max-height: 350px;*/
     /*width: 320px;*/
     /*max-height: 280px;*/
-    overflow: scroll;
+    /*overflow: scroll;*/
     margin: 0 auto;
     padding: 0 3% 3% 3%;
     border-radius: 5px;
-    background-color: #1F132F;
+    background-color: #79757F;
+    /*background-color: #1F132F;*/
     margin-bottom: 6%;
   }
   
@@ -371,8 +382,8 @@
 @media (max-width: 898px) {
 
   .project-desc {
-    width: 80%;
-    max-height: 200px;
+    width: 96%;
+    /*max-height: 200px;*/
   }
 
   #memorizingtitle {
@@ -387,7 +398,6 @@
     margin-top: 4%;
   }
 
-  
 }
 
 @media (max-width: 765px) {
