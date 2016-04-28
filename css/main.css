@@ -10,7 +10,8 @@
   .pink-red {
     font-size: 1.3em;
     font-family:'Satisfy', cursive;
-    color: #B71212;
+    /*color: #B71212;*/
+    color: #FCE29F;
   }
 
 
@@ -129,7 +130,8 @@
 
   .about-me-p {
     /*background: #fff9c6;*/
-    color: #c7b27e;
+    color: #FCE29F;
+    /*color: #c7b27e;*/
     border: 1px solid #fce29f;
     background-color: #16061D;
     opacity: 1;
