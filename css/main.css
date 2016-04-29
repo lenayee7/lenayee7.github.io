@@ -528,6 +528,24 @@
     /*max-height: 250px;*/
   }
 
+}
+
+  @media (max-width: 400px) {
+
+  .pink-red {
+    margin-left: 25%;
+  }
+
+  .project-desc {
+    
+  }
+
+  .about-me-p {
+    margin-bottom: 2%;
+    font-size: 1em;
+    text-align: left;
+  }
+
 
 
 
