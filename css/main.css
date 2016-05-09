@@ -394,6 +394,7 @@
  .linkedin-resume {
    width: 3%;
    margin-top: 1%;
+   border-radius: 2px;
  }
 
  .linkedin-resume:hover {
