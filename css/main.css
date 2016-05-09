@@ -7,6 +7,18 @@
     color: #f5f6f7;
   }
 
+  a {
+   font-size: 1.3em;
+  }
+
+  a:hover {
+    font-size: 1.5em;
+  }
+
+  #second {
+    margin-left: 20%;
+  }
+
   .pink-red {
     font-size: 1.2em;
     font-family: 'Asap', sans-serif;
@@ -28,11 +40,12 @@
 
   .navbar {
     color: #c7b27e;
-    border: 1px solid #553279;
+    border: 1px solid #262429;
     background-color: #262429;
+    opacity: .8;
     /*background-image: url("../images/pineapple.jpg");*/
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 0;
     margin-bottom: 0px;
     font-size: 12px;
@@ -40,7 +53,7 @@
   }
 
   nav.navbar.navbar-default {
-    color: #A00B0B;
+    color: #262429;
     /*margin-bottom: 0%;*/
     border-radius: 0px;
   }
@@ -60,7 +73,8 @@
 
   #my-name {
     color: #DEDCE1;
-    font-family: 'Satisfy', cursive;
+    width: 300px;
+    /*font-family: 'Satisfy', cursive;*/
     /*font-family: 'Asap', sans-serif;*/
     font-size: 2.6em;
     font-weight: 700;
@@ -69,6 +83,10 @@
   #my-name:hover {
     color: #9386A7;
     font-size: 2.7em;
+  }
+
+  #cloud {
+    /*width: 4%;*/
   }
  /*////////END OF NAVBAR///////*/
 
@@ -99,7 +117,7 @@
 /*////////ABOUT ME///////*/
 
   #quote {
-    color: #524E58;
+    color: #262429;
     font-weight: bold;
     font-size: 1.7em;
     font-style: italic;
@@ -122,7 +140,7 @@
   }
 
   #job-title {
-    color: #524E58;
+    color: #262429;
     /*color: #775E9C;*/
     font-weight: bold;
     /*margin-bottom: 1%;*/
@@ -145,11 +163,9 @@
     color: #524E58;
     /*color: #c7b27e;*/
     border: 2px solid #ADADAD;
-    /*border: 1px solid #fce29f;*/
     background-color: #F0F0F1;
-    /*background-color: #16061D;*/
     opacity: 1;
-    padding: 1% 2% 2% 2%;
+    padding: 1% 5% 2%;
     width: 90%;
     border-radius: 5px;
     opacity: .8;
@@ -157,7 +173,7 @@
     font-size: 1.3em;
     font-weight: bold;
     font-family: 'Asap', sans-serif;
-    margin: 0 auto 1% auto;
+    margin: 0 auto 1%;
   }
 
   .code-volleyball {
@@ -177,7 +193,7 @@
   #left-right-div {
     vertical-align: middle;
     overflow: hidden;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     /*border: 1px solid white;*/
     border-radius: 5px;
@@ -212,14 +228,17 @@
   }
 
   .bg-1 { 
-    background-color: #DEDCE1;
+    background-image: url('../images/suncloud.jpg');
+    background-size: 100% 100%;
+    /*background-color: #DEDCE1;*/
     border-bottom: 1px solid #79757F;
     /*background-color: #403451; */
   }
 
   .bg-2 { 
-/*    background-size: cover;
-    background-image: url("../images/blackwhitesf.jpg");*/
+    background-size: 100% 100%;
+    /*opacity: .8;*/
+    /*background-image: url("../images/dark.jpg");*/
     background-color: #DEDCE1; /* Dark Blue */
     border-bottom: 1px solid #79757F;
     color: #ffffff;
@@ -235,14 +254,17 @@
   }
 
   .bg-4 { 
+    background-image: url("../images/piratesunset.jpg");
+    background-size: 100% 100%;
     background-color: #F0F0F1;
-    /*background-color: #2f2f2f; /* Black Gray */*/
+    /*background-image: url("http://cmster.com/media/s1EJaFd9xKQiR8HTpgulKjMPkRZBGDbdhA5cHhBlJecdNxOaUwPFGmEJoyhJob2u.jpg");*/
+    /*background-color: #2f2f2f; /* Black Gray */
     color: gray;
   }
 
   .container-fluid {
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
   }
 
 
@@ -296,7 +318,7 @@
   }
 
   .project-desc {
-    font-family: 'Asap', sans-serif;
+    /*font-family: 'Asap', sans-serif;*/
     font-size: 1.3em;
     /*color: #FFFFFF;*/
     /*color: #c7b27e;*/
@@ -324,7 +346,7 @@
   }*/
 
   p {
-    color: #775E9C;
+    color: #58555D;
     font-size: 20px;
     font-family: 'Ropa Sans', sans-serif;
     /*font-family: 'Cuprum', sans-serif;*/
@@ -363,37 +385,50 @@
   }
 
   /*////////FOOTER///////*/
-/*
-  #gmail {
-    width: 3.5%;
-    margin: 1%;
-  }
 
-  #linkedin {
-    width: 4%;
-    margin: 1%;
-  }
-*/
-/*  #githubcontact {
-    width: 4%;
-    margin: 1%;
-  }*/
+/* #footer-div {
+  padding-top: 60%;
+ }*/
+
+ .linkedin-resume {
+   width: 3%;
+   margin-top: 1%;
+ }
+
+ .linkedin-resume:hover {
+   width: 4%;
+ }
  
  .social-media {
+   transition: all 0.3s ease-in-out 0s;
    width: 4%;
    margin: 1%;
   }
 
   .social-media:hover {
-    width: 5.5%;
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
   }
+
+/*  .social-media:hover {
+    width: 5.5%;
+  }*/
 
   .glyphicon {
     margin-right: 1%;
   }
 
+  .resume {
+    font-family: monospace;
+  }
 
 @media (max-width: 1035px) {
+
+  .linkedin-resume {
+    width: 4%;
+  }
+
 
   .project-desc {
     font-size: 1.2em;
@@ -403,6 +438,16 @@
 }
 
 @media (max-width: 898px) {
+
+  .bg-1 { 
+    background-size: 100% 100%;
+  }
+
+ .linkedin-resume {
+    width: 5%;
+    margin-top: 1%;
+  }
+
 
   .project-desc {
     width: 80%;
@@ -447,6 +492,16 @@
 
 @media (max-width: 606px) {
 
+  #left-right-div {
+    width: 90%;
+  }
+
+  .linkedin-resume {
+    width: 7%;
+    margin-top: 3%;
+  }
+
+
   #profile-pic {
     float: none;
     margin: 4% auto;
@@ -458,10 +513,6 @@
     font-size: 1.2em;
   /*  width: 420px;
     max-height: 300px;*/
-  }
-
-  #job-title {
-    font-size: 1.5em;
   }
 
   .about-me-p {
@@ -496,6 +547,12 @@
 } 
 
 @media (max-width: 500px) {
+
+  .linkedin-resume {
+    width: 10%;
+    margin-top: 2%;
+  }
+
 
   .purp-github {
     width: 6%;
