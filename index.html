@@ -48,16 +48,16 @@
 			<h3 class="subtitles"><a id="topofpage"><img id="profile-pic" src="./images/lena.jpg" class="img-responsive" style="display:inline" alt="profile pic" width="100" height="170"></a><br>About Me</h3>
 			  <a href="https://www.linkedin.com/in/lenayee" target="_blank"><img class="linkedin-resume" src="./images/linkedin.jpg"></a>
 	  	  <a href="lenayeeresume.pdf"  target="_blank"><img class="linkedin-resume"src="./images/resumeimg.jpg"></a>
-	  	  <a href="https://profiles.generalassemb.ly/lena-yee" target="_blank"><img class="linkedin-resume" src="./images/ga.jpg"></a>
+	  	  <a href="https://profiles.generalassemb.ly/lena-yee" target="_blank"><img class="linkedin-resume" src="./images/galogo.jpg"></a>
 	  	  
 		  <h3 id="job-title">Full Stack Web Developer|<i class="fa fa-heart" aria-hidden="true"></i> VolleyballR </h3>
 		  <p id="quote">"Do it with a <span id="passion">passion</span> or not at all"</p>
 		  <div id="left-right-div">
 				 <p class="about-me-p"><span class="pink-red">What I’m looking for</span><br>
-					Looking for a full-time position as a Full Stack or Front end Web Developer with a company that has a vision in growing their product or service.<br>
+					Full-time position as a Full Stack or Front end Web Developer with a company that has a vision in growing their product or service.<br>
 					<p class="about-me-p">
 					<span class="pink-red">As a Web Developer</span><br>
-					Full Stack Web Developer currently based in San Francisco, CA. Recently graduated a 12-week Web Development Immersive course at General Assembly(April 2016) and also completed the Front-End Web Development course in Santa Monica(October 2015). I am passionate about creating responsive web applications that provide a smooth user experience. During GA, I built games in the fronted using JavaScript & jQuery, and also full stack crud apps using the MEAN stack & Ruby on Rails. In addition I gained experience using Git, Heroku and pair programming.<br></p>
+					Full Stack Web Developer currently based in San Francisco, CA. Recently graduated a 12-week Web Development Immersive course at General Assembly(April 2016) and also completed the Front-End Web Development course in Santa Monica(October 2015). I am passionate about creating responsive web applications that provide a smooth user experience. During GA, I built games in the fronted using JavaScript & jQuery, and full stack crud apps using the MEAN stack & Ruby on Rails. In addition I gained experience using Git, Heroku and pair programming.<br></p>
 					<!-- <button type="button" id="background-btn" class="btn" data-toggle="collapse" data-target="#background"> Background <span id="arrow-down" class="glyphicon glyphicon-circle-arrow-down"></span></button>
 				  <div id="background" class="collapse about-me-p">
 		       Previously to graduating Web Development Immersive course, I attended St. John’s University in Queens, NY on a volleyball scholarship and graduated with a B.S degree in Sports Management. After assisting my family business in Honolulu, HI and doing an accounting internship, in 2013 I seeked new opportunities in Orange County, CA. I found myself pursuing a career in business while working in various positions in the construction industry, however still desired more of a challenge. With two siblings working in the industry in San Francisco I felt empowered to learn more about web development by starting with doing online tutorials and watching videos. Since then I’ve discovered my<br> <span class="pink-red">Passion for Coding</span><br>
@@ -70,21 +70,24 @@
 					</div>
 		  </div>
 		</div>
-		  <!-- <div><h3>I'm an adventurer</h3></div> -->
 
 		<!-- Third Container (Grid) -->
 		<div class="container-fluid bg-3 text-center" id="portfolio">  
 		  <h3 class="subtitles"><!-- <i class="fa fa-heart redheart" aria-hidden="true"> --></i>Portfolio</h3><br>
 		  <div class="row">
-		    <div class="col-sm-4 proj-div">
-		    	<h3 class="project-title" id="memorizingtitle">Memorizing MnM's</h3><strong class="navbar-purple">Project 1 - JavaScript & jQuery(Frontend)</strong>
+
+		    <div class="col-sm-4 proj-div"> 
+		    	<h3 class="project-title">TripMemories</h3> 
+		    	<strong class="navbar-purple">Ruby on Rails(Full Stack)</strong>
 		    	<div>
-			      <a class="project-link" href="http://bartender-crab-fishies.bitballoon.com/" target="_blank" id="memorizingmnms">Memorizing MnM's</a> | <a href="https://github.com/lenayee7/project1" target="_blank"><img class="purp-github" src="http://www.ryanpierce.me/github_logo.png"></a>
-			      <img src="./images/mnmbefore.jpg" id="memorizing-img" class="project-img" alt="Image">
-		      </div>
-			      <p class="project-desc"><span class="technologies"> Technologies: JavaScript, jQuery HTML5, CSS, Bootstrap, BitBalloon</span><br>A digital memory game using m&m images as “cards”. Click on two cards at a time, if the colored mnm’s match, you score a point, otherwise cards will be flipped back over. The game is over when you match all the cards or the timer runs out. Built the frontend using jQuery & JavaScript for game functionality.
-			      </p>
-		    </div>
+	  	      <a class="project-link" href="https://sleepy-beach-27989.herokuapp.com/" target="_blank">TripMemories</a> | <a href="https://github.com/lenayee7/trip-memories" target="_blank"><img class="purp-github" src="http://www.ryanpierce.me/github_logo.png"></a>
+		      	<img src="./images/posts-index2.png" class="project-img" alt="Image">
+			    </div>
+			      <p class="project-desc"><span class="technologies">Technologies: Ruby on Rails, Postgres, jQuery, HTML5/CSS, Heroku, Github, Bootstrap<br> Others: Paperclip, AWS-S3 Services, SASS</span><br>Trip Memories is a journal created by posts of photos & text of that particular trip.<br>
+			      <strong>Login: slade@slade.com<br>
+			      Password: password</strong>
+			  		</p>
+			  </div>
 
 		    <div class="col-sm-4 proj-div">
 			    	<h3 class="project-title">Reciplease!</h3><strong class="navbar-purple">Final Project - MEAN Stack</strong>
@@ -96,15 +99,17 @@
 			      <strong>Login: slade@slade.com<br>
 			      Password: slade</strong>
 		    </div>
-	<!-- 	    <div class="col-sm-4">
-			    <h3 class="project-title">Trippin'</h3> 
-		      <p><strong class="navbar-purple">Project 2 - Ruby on Rails(Full Stack)</strong><br> A mini- blog where a user is able to sign up and create their own trip blog and add a post of text, or photo that belong to that particular trip. Created RESTful routes on the backend in Rails and used Ruby to render data on the front end. Implemented upload care so a user can upload images from a social media site or their computer.</p>
-					<p><strong>Technologies:</strong> Ruby on Rails, PostgreSQL,  HTML5, CSS</p>
-					<div id="trippin-div">
-			      <a class="project-link" href="#" target="_blank">Trippin'</a> | <a href="https://github.com/lenayee7/trippin" target="_blank"><img class="purp-github" src="http://www.ryanpierce.me/github_logo.png"></a>
-			      <img src="./images/anchor.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-			    </div>
-		    </div> -->
+		    
+		    <div class="col-sm-4 proj-div">
+		    	<h3 class="project-title" id="memorizingtitle">Memorizing MnM's</h3><strong class="navbar-purple">Project 1 - JavaScript & jQuery(Frontend)</strong>
+		    	<div>
+			      <a class="project-link" href="http://bartender-crab-fishies.bitballoon.com/" target="_blank" id="memorizingmnms">Memorizing MnM's</a> | <a href="https://github.com/lenayee7/project1" target="_blank"><img class="purp-github" src="http://www.ryanpierce.me/github_logo.png"></a>
+			      <img src="./images/mnmbefore.jpg" id="memorizing-img" class="project-img" alt="Image">
+		      </div>
+			      <p class="project-desc"><span class="technologies"> Technologies: JavaScript, jQuery HTML5, CSS, Bootstrap, BitBalloon</span><br>A digital memory game using m&m images as “cards”. Click on two cards at a time, if the colored mnm’s match, you score a point, otherwise cards will be flipped back over. The game is over when you match all the cards or the timer runs out. Built the frontend using jQuery & JavaScript for game functionality.
+			      </p>
+		    </div>
+<!-- 
 		    <div class="col-sm-4 proj-div"> 
 		    	<h3 class="project-title">Friend Me</h3> 
 		    	<strong class="navbar-purple">Project 3 - Group Project (Full Stack)</strong>
@@ -114,20 +119,10 @@
 			    </div>
 			      <p class="project-desc"><span class="technologies">Technologies: Node.js, Express, jQuery, HTML5/CSS, Mongodb, Mongoose, Github, Heroku, Bootstrap</span><br>FriendMe was designed to connect travellers with locals from places that they are travelling to. Similar to AirBnb, locals can offer their services as a guide to the city since they know it best. Responsibilities included assisting with creating RESTful routes and crud functions for User & Post model.<br>
 			  		</p>
-			  </div>
-			 <!--  <div class="col-sm-4 proj-div"> 
-		    	<h3 class="project-title">My Fave Restaurant</h3> 
-		    	<strong class="navbar-purple">Rapid Prototype - Firebase, Angular</strong>
-		    	<div>
-	  	      <a href="#" class="project-link">Github</a>
-	  	      <a href="https://github.com/lenayee7/MyFaveRestaurant" target="_blank"><img class="purp-github" src="http://www.ryanpierce.me/github_logo.png"></a>
-		      	<img src="./images/myfaverest.png" class="project-img" alt="Image">
-			    </div>
-			      <p class="project-desc"><br>We all use Yelp and love to eat good food. Share one of your fave places by adding your favorite restaurant; beacause you care!<br>
-			      <strong>Technologies: </strong>Firebase, JavaScript, AngularJS, HTML/CSS, Github, jQuery, Bootstrap</p>
 			  </div> -->
+
+			</div>
 		</div>
-	</div>
 
 
 		<!-- Second Container -->

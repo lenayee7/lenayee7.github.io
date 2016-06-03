@@ -7,12 +7,17 @@
     color: #f5f6f7;
   }
 
+  .col-sm-4 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   a {
    font-size: 1.3em;
   }
 
   a:hover {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   #second {
@@ -21,9 +26,6 @@
 
   .pink-red {
     font-size: 1.2em;
-    font-family: 'Asap', sans-serif;
-    /*font-family:'Satisfy', cursive;*/
-    /*color: #B71212;*/
     color: #553279;
   }
 
@@ -74,7 +76,7 @@
   #my-name {
     color: #DEDCE1;
     width: 300px;
-    /*font-family: 'Satisfy', cursive;*/
+    font-family: 'Satisfy', cursive;
     /*font-family: 'Asap', sans-serif;*/
     font-size: 2.6em;
     font-weight: 700;
@@ -91,17 +93,12 @@
  /*////////END OF NAVBAR///////*/
 
   .subtitles {
-    color: #553279;
-    /*color: #B71212; darkred*/ 
+    color: #E0D9E4;
     font-size: 2em;
     font-weight: bold;
     font-family: monospace;
     padding-top: 4%;
     margin-bottom: 0px;
-    text-decoration: underline;
-  /* -webkit-text-fill-color: #D3D679;
-   -webkit-text-stroke-width: .5px;
-   -webkit-text-stroke-color: #D3D679;*/
   }
 
   h3 {
@@ -109,15 +106,15 @@
   }
 
   .lena-website {
-    font-family: 'Ropa Sans', sans-serif;
+    /*font-family: 'Ropa Sans', sans-serif;*/
     font-size: 1em;
-    color: #8B1313;
+    color: #58555D;
   }
 
 /*////////ABOUT ME///////*/
 
   #quote {
-    color: #262429;
+    color: #EA5F50;
     font-weight: bold;
     font-size: 1.7em;
     font-style: italic;
@@ -127,7 +124,7 @@
  /* #passion {
     color: pink;
   }*/
-  #passion-coding {
+/*  #passion-coding {
     color: #27242D;
     background-color: #F0F0F1;
     opacity: 1;
@@ -137,10 +134,10 @@
     font-size: .9em;
     font-weight: bold;
     font-family: 'Asap', sans-serif;
-  }
+  }*/
 
   #job-title {
-    color: #262429;
+    color: #EA5F50;
     /*color: #775E9C;*/
     font-weight: bold;
     /*margin-bottom: 1%;*/
@@ -172,7 +169,7 @@
     vertical-align: middle;
     font-size: 1.3em;
     font-weight: bold;
-    font-family: 'Asap', sans-serif;
+    /*font-family: 'Asap', sans-serif;*/
     margin: 0 auto 3%;
   }
 
@@ -204,7 +201,7 @@
     clear: right;
     overflow: hidden;
   }
-
+/*
   #background-btn {
     padding: .2% 5%;
     font-size: 1.2em;
@@ -220,7 +217,7 @@
     color: #524E58;
     margin-top: 1.3%;
   }
-
+*/
   /*////////END OF ABOUT ME///////*/
 
   .margin {
@@ -228,38 +225,31 @@
   }
 
   .bg-1 { 
-    background-image: url('../images/suncloud.jpg');
+    /*background-image: url('../images/suncloud.jpg');*/
     background-size: 100% 100%;
     /*background-color: #DEDCE1;*/
     border-bottom: 1px solid #79757F;
     padding-bottom: 2%;
-    /*background-color: #403451; */
+    background-color: #752DE2; 
   }
 
   .bg-2 { 
     background-size: 100% 100%;
     /*opacity: .8;*/
     /*background-image: url("../images/dark.jpg");*/
-    background-color: #DEDCE1; /* Dark Blue */
+    background-color: #773CD0; /* Dark Blue */
     border-bottom: 1px solid #79757F;
     color: #ffffff;
   }
 
   .bg-3 { 
     border-bottom: 1px solid #79757F;
-   /* background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/Standing-Starfish-HD-Wallpaper-having-Bright-Sun-in-Background.jpg");
-    background-size: cover;*/
-    background-color: #F0F0F1;
-        /*    background-color: #fff;*/ /* White */
+    background-color: #EA5F50;
     color: #555555;
   }
 
   .bg-4 { 
-    background-image: url("../images/piratesunset.jpg");
-    background-size: 100% 100%;
-    background-color: #F0F0F1;
-    /*background-image: url("http://cmster.com/media/s1EJaFd9xKQiR8HTpgulKjMPkRZBGDbdhA5cHhBlJecdNxOaUwPFGmEJoyhJob2u.jpg");*/
-    /*background-color: #2f2f2f; /* Black Gray */
+    background-color: #333;
     color: gray;
   }
 
@@ -283,25 +273,21 @@
   #about-me {
     width: 60%;
     margin: 0 auto;
-    font-family: 'Abel', sans-serif;
   }
   
   #memorizingmnms {
     font-size: 1.5em;
   }
 
-  #memorizingtitle {
-    /*font-size: 1.5em;*/
-  }
-
   .project-link {
     font-size: 1.6em;
-    color: #A00B0B;
+    /*#77D9E0*/
+    color: #752DE2;
     text-decoration: underline;
   }
 
   .project-link:hover {
-    color: #A00B0B;
+    color: #eee;
     font-size: 1.8em;
   }
 
@@ -319,10 +305,7 @@
   }
 
   .project-desc {
-    /*font-family: 'Asap', sans-serif;*/
     font-size: 1.3em;
-    /*color: #FFFFFF;*/
-    /*color: #c7b27e;*/
     border: 2px solid #ADADAD;
     width: 80%;
     margin: 0 auto;
@@ -330,28 +313,16 @@
     border-radius: 5px;
     background-color: #DEDCE1;
     color: #524E58;
-    /*background-color: #79757F;*/
-    /*background-color: #1F132F;*/
     margin-bottom: 6%;
   }
   
   .navbar-purple {
-    font-family: 'Ropa Sans', sans-serif;
     color: #1F132F;
   }
-
-/*  .proj-div {
-    background-color: #fff;
-    opacity: .8;
-    border-radius: 5px;
-  }*/
 
   p {
     color: #58555D;
     font-size: 20px;
-    font-family: 'Ropa Sans', sans-serif;
-    /*font-family: 'Cuprum', sans-serif;*/
-    /*font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;*/
   }
 
   /*////////SKILLS///////*/
@@ -392,13 +363,14 @@
  }*/
 
  .linkedin-resume {
+
    width: 3%;
    margin-top: 1%;
-   border-radius: 2px;
+   border-radius: 100px;
  }
 
  .linkedin-resume:hover {
-   width: 4%;
+  background: rgba(0, 0, 0, 0.8)
  }
  
  .social-media {
@@ -441,10 +413,6 @@
 
 @media (max-width: 898px) {
 
-  .bg-1 { 
-    background-size: 100% 100%;
-  }
-
  .linkedin-resume {
     width: 5%;
     margin-top: 1%;
@@ -453,7 +421,6 @@
 
   .project-desc {
     width: 80%;
-    /*max-height: 200px;*/
   }
 
   #memorizingtitle {
@@ -482,8 +449,6 @@
 
   .project-desc {
     font-size: 1.2em;
-   /* width: 500px;
-    max-height: 300px;*/
   }
 
   .purp-github {
@@ -503,7 +468,6 @@
     margin-top: 3%;
   }
 
-
   #profile-pic {
     float: none;
     margin: 4% auto;
@@ -513,8 +477,6 @@
 
   .project-desc {
     font-size: 1.2em;
-  /*  width: 420px;
-    max-height: 300px;*/
   }
 
   .about-me-p {
@@ -522,6 +484,7 @@
     font-size: 1.4em;
     margin-top: 3%;
     margin: 1% auto;
+    font-family: monospace;
   }
 
   #gmail {
@@ -541,11 +504,6 @@
     width: 8%;
   }
 
-/*  #stj {
-    border-radius: 5px;
-    width: 8%;
-  }*/
-
 } 
 
 @media (max-width: 500px) {
@@ -563,11 +521,6 @@
   .about-me-p {
     margin-bottom: 2%;
     font-size: 1em;
-    text-align: left;
-  }
-
-  .pink-red {
-    margin-left: 29%;
   }
 
   #profile-pic {
@@ -584,25 +537,15 @@
   .project-desc {
     font-size: 1.2em;
     width: 80%;
-    /*max-height: 250px;*/
   }
 
 }
 
   @media (max-width: 400px) {
 
-  .pink-red {
-    margin-left: 25%;
-  }
-
-  .project-desc {
-    
-  }
-
   .about-me-p {
     margin-bottom: 2%;
     font-size: 1em;
-    text-align: left;
   }
 
 
