@@ -11,7 +11,11 @@ html {
 }
 
 a {
-    color: #a6dc2d;
+    color: #c5fd48;
+}
+
+a:hover {
+    color: #8e24fb;
 }
 
 body,
@@ -22,15 +26,38 @@ h4,
 h5,
 h6 {
     font-family: 'Athiti', sans-serif;
-    /*font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 700;
 }
 
+h1  {
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Lily Script One', cursive;
+    -webkit-text-fill-color:  #000;
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: #c5fd48;
+}
+
+.outline-purple {
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Lily Script One', cursive;
+    -webkit-text-fill-color:  #000;
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color:  #8e24fb;
+}
+
+h3 {
+    font-weight: bold;
+    color: #dad7da;
+}
 font-family: 'Baloo', cursive;
 font-family: 'Lalezar', cursive;
 font-family: 'Athiti', sans-serif;
 font-family: 'Yatra One', cursive;
 font-family: 'Baloo Thambi', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Lily Script One', cursive;
 
 .topnav {
     font-size: 14px; 
@@ -104,14 +131,18 @@ font-family: 'Baloo Thambi', cursive;
 }
 
 .content-section-a {
+    border-top: 1px solid #eee;
+    color: white;
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #4e5a66;
 }
 
 .content-section-b {
+    color: white;
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+    background-color: #211f1f;
 }
 
 .section-heading {
@@ -150,6 +181,14 @@ font-family: 'Baloo Thambi', cursive;
     margin-top: 0;
 }
 
+.navbar-brand>img {
+    display: inline-block;
+}
+
+.hi-logo {
+    width: 18%;
+}
+
 .topnav {
     background-color: #000;
 }
@@ -160,20 +199,29 @@ font-family: 'Baloo Thambi', cursive;
 }
 
 .btn-lg {
-    background-color: #a6dc2d;
+    background-color: #c5fd48;
 }
 
 .navbar-default .navbar-brand  {
-    color: #a6dc2d;
+    color: #c5fd48;
+}
+
+.navbar-default .navbar-brand:hover  {
+    color: #8e24fb;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #a6dc2d;
+    color: #c5fd48;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #8e24fb;
 }
 
 .underline {
     text-decoration: underline;
 }
+
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
@@ -202,7 +250,7 @@ font-family: 'Baloo Thambi', cursive;
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #211f1f;
 }
 
 p.copyright {
