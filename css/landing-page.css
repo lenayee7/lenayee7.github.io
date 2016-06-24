@@ -52,7 +52,7 @@ h1  {
 */
 h3 {
     font-weight: bold;
-    color: #dad7da;
+/*    color: #dad7da;*/
 }
 font-family: 'Baloo', cursive;
 font-family: 'Lalezar', cursive;
@@ -258,4 +258,17 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+
+@media(max-width:500px) {
+
+    .list-inline {
+        margin: 0 auto;
+    }
+
+    a {
+        font-size: .9em;
+    }
+
 }
