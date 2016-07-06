@@ -213,7 +213,8 @@ font-family: 'Lily Script One', cursive;
 }
 
 .topnav {
-    background-color: #000;
+    opacity: .9;
+    background-color: #212020;
 }
 
 .btn-logo {
