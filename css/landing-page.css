@@ -11,7 +11,7 @@ html {
 }
 
 a {
-    color: #c5fd48;
+    color: #12e6c9;
 }
 
 a:hover {
@@ -71,12 +71,31 @@ font-family: 'Lily Script One', cursive;
     font-weight: 400;
 }
 
+.hawaii {
+    position: relative;
+    display: inline-block;
+}
+
+.hi-logo {
+    position: relative;
+    top: -30px;
+    left: -20px;
+    display: inline-block;
+    width: 10%;
+}
+
+.hi-h1 {
+    display: inline-block;
+    font-size: 5em;
+}
+
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-color: #211f1f;
+    /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
     background-size: cover;
 }
 
@@ -110,6 +129,11 @@ font-family: 'Lily Script One', cursive;
     .intro-message > h1 {
         font-size: 3em;
     }
+
+    .hawaii > h1 {
+        font-size: 3em;
+    }
+
 
     ul.intro-social-buttons > li {
         display: block;
@@ -188,10 +212,6 @@ font-family: 'Lily Script One', cursive;
     display: inline-block;
 }
 
-.hi-logo {
-    width: 18%;
-}
-
 .topnav {
     background-color: #000;
 }
@@ -202,11 +222,12 @@ font-family: 'Lily Script One', cursive;
 }
 
 .btn-lg {
-    background-color: #c5fd48;
+    background-color: #12e6c9;
 }
+/*#c5fd48 - lime green*/
 
 .navbar-default .navbar-brand  {
-    color: #c5fd48;
+    color: #12e6c9;
 }
 
 .navbar-default .navbar-brand:hover  {
@@ -214,7 +235,7 @@ font-family: 'Lily Script One', cursive;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #c5fd48;
+    color: #12e6c9;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
