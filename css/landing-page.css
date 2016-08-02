@@ -27,9 +27,16 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Arvo', serif;
     font-weight: 700;
 }
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Arvo', serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Arima Madurai', cursive;
+font-family: 'Julius Sans One', sans-serif;
 
 h1  {
     color: #eee;
@@ -54,13 +61,6 @@ h3 {
     font-weight: bold;
 /*    color: #dad7da;*/
 }
-font-family: 'Baloo', cursive;
-font-family: 'Lalezar', cursive;
-font-family: 'Athiti', sans-serif;
-font-family: 'Yatra One', cursive;
-font-family: 'Baloo Thambi', cursive;
-font-family: 'Oleo Script', cursive;
-font-family: 'Lily Script One', cursive;
 
 .topnav {
     font-size: 14px; 
